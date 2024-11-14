@@ -1,0 +1,14 @@
+h1.page_title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 140px;
+    text-transform: capitalize;
+}
+
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 140px;
+    gap: 30px;
+}

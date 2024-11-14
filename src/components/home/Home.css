@@ -1,0 +1,191 @@
+a{
+    text-decoration: none;
+}
+
+.home_banner_section {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 50px 140px;
+}
+
+section {
+    padding: 50px 140px;
+}
+
+.home_banner_section .swiper {
+    width: 60%;
+}
+
+.home_banner_section .swiper_slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.home_banner_section .swiper-button-next,
+.home_banner_section .swiper-button-prev {
+    color: black;
+}
+
+.swiper-button-prev {
+    right: 70px;
+    left: unset;
+    bottom: 20px;
+    top: unset;
+}
+
+.swiper-button-next {
+    top: unset;
+    bottom: 20px;
+}
+.offers_section .swiper-button-prev {
+    left: 10px;
+    right: unset;
+    bottom: 20px;
+    top: unset;
+}
+
+.offers_section .swiper-button-next {
+    right: unset;
+    left: 70px;
+    top: unset;
+    bottom: 20px;
+}
+
+.home_banner_section .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: fit-content;
+    bottom: 0;
+    padding: 5px 20px;
+    background: white;
+    height: fit-content;
+    border-radius: 0 0 20px 0;
+    display: flex;
+    transform: rotate(-90deg) translate(35px, -35px);
+}
+
+.home_banner_section .swiper-pagination-bullet-active {
+    background-color: black;
+}
+
+.small_banners_container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small_banners_container img {
+    width: 100%;
+    height: 50%;
+}
+
+.category_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.category_container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2.category_link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+section.categories_container a {
+    color: black;
+    font-weight: 400;
+    font-size: small;
+}
+
+section.events_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+section.events_section img {
+    width: 100%;
+}
+
+.new_arrival,
+.offers_section {
+    display: flex;
+    gap: 20px;
+    user-select: none;
+}
+
+.new_arrival .swiper,
+.offers_section .swiper {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.new_arrival .swiper-slide,
+.offers_section .swiper-slide {
+    width: 100%;
+}
+
+.new_arrival .product_container,
+.offers_section .product_container {
+    height: 100%;
+}
+
+.title_container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+section.new_arrival .title_container a,
+section.offers_section .title_container a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section.new_arrival .title_container a:hover,
+section.offers_section .title_container a:hover {
+    background: rgb(70, 70, 70);
+}
+
+section.new_arrival .swiper-button-next, 
+section.new_arrival .swiper-button-prev,
+section.offers_section .swiper-button-next, 
+section.offers_section .swiper-button-prev {
+    color: black;
+    bottom: 0;
+    top: unset;
+}
+
+h2.section_title {
+    font-size: 30px;
+}
+
+.offers_section .offer_amount {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    z-index: 10;
+}

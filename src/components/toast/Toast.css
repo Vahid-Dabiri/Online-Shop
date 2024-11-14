@@ -1,0 +1,24 @@
+.card_toast_container {
+    width: fit-content;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    background: aquamarine;
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+}
+.card_toast_container.active_card_toast {
+    left: 0%;
+}
+
+span.card_toast_text {
+    font-size: 18px;
+}
+
+span.card_toast_btn {
+    display: flex;
+    cursor: pointer;
+}

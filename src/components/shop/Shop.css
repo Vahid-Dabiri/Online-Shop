@@ -1,0 +1,47 @@
+
+
+/* Filter */
+.categories_container {
+    padding: 50px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.categories_container span {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.categories_container span.active_filter {
+    border-bottom: 2px solid black;
+}
+
+/* Pagination */
+.pagination_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 50px;
+}
+
+span.pagination_btn {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+span.pagination_btn.active_pagination_btn {
+    background: antiquewhite;
+}

@@ -1,0 +1,139 @@
+section.single_product_container {
+    padding: 50px 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.single_product_image_container {
+    width: 50%;
+}
+
+section .single_product_container img {
+    width: 80%;
+}
+
+.single .product_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_wrapper,
+.amount_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.amount_wrapper{
+    flex-direction: row;
+}
+
+.product_details_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+a.single_product_container {
+    background: transparent;
+    color: black;
+    text-align: start;
+    padding: 0;
+}
+
+a.single_product_container:hover {
+    background: transparent;
+}
+
+section.single_product_container img {
+    max-height: 50vh;
+}
+
+.single_product_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.increas_btn {
+    padding: 5px 30px;
+    font-size: 30px;
+    border: 1px solid gray;
+    background: transparent;
+    border-right: 0;
+    cursor: pointer;
+}
+
+.amount_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.product_price {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+span.product_amount {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 30px;
+}
+
+button.decreas_btn {
+    padding: 5px 30px;
+    font-size: 30px;
+    border: 1px solid gray;
+    background: transparent;
+    border-left: 0;
+    cursor: pointer;
+}
+
+button.add_to_card_btn {
+    padding: 0 20px;
+    background: black;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button.add_to_card_btn:hover {
+    background: rgb(70,70,70);
+}
+
+a.product_category {
+    color: rgb(70, 70, 70);
+}
+
+input.product_amount {
+    font-size: 18px;
+    text-align: center;
+    padding: 13px 13px 12px;
+    width: 100px;
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

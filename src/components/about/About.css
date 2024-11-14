@@ -1,0 +1,31 @@
+section.desc_container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+section.counters_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+span.counter_amount {
+    width: 150px;
+    height: 150px;
+    border: 2px solid antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    border-radius: 50%;
+}

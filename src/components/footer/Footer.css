@@ -1,0 +1,97 @@
+footer.main_footer {
+    padding: 50px 140px;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.main_footer .top_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main_footer .address_socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main_footer .address_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address_container span {
+    display: flex;
+    gap: 15px;
+}
+
+.main_footer .socials_container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main_footer .socials_container a{
+    color: black;
+}
+
+.main_footer .links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_footer .links li{
+    list-style-type: none;
+    padding: 6px 0;
+}
+
+.main_footer .links ul{
+    list-style-type: none;
+}
+
+.main_footer .logo_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_footer h2.logo {
+    font-size: 35px;
+}
+
+.main_footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main_footer input#footer_form_input {
+    padding: 5px;
+}
+
+.main_footer form button {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.main_footer .copy_right p {
+    display: flex;
+    gap: 15px;
+}
