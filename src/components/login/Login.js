@@ -122,10 +122,7 @@ export default function Login() {
 
     }
 
-    console.log(contextData.is_user_auth);
-
     const user_token = localStorage.getItem('token');
-
     if (contextData.is_user_auth && user_token) {
         return (
             <main className='login_main_container'>
